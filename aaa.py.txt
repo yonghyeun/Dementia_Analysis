@@ -1,0 +1,4 @@
+def (x,y):
+	return x+y
+
+'나는야 MRI 라네'

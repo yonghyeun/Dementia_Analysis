@@ -1,0 +1,23 @@
+model,params
+LogisticRegression,"LogisticRegression(class_weight='balanced', solver='liblinear')"
+DecisionTreeClassifier,"DecisionTreeClassifier(class_weight='balanced', criterion='entropy',
+                       max_depth=25, splitter='random')"
+SVC,"SVC(C=0.1, class_weight='balanced', degree=4, gamma=1, kernel='poly')"
+KNeighborsClassifier,KNeighborsClassifier()
+RandomForestClassifier,"DecisionTreeClassifier(max_depth=15, max_features='auto', min_samples_split=5,
+                       random_state=442435864)"
+XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=0.2, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=4, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=200, n_jobs=None, num_parallel_tree=None,
+              objective='multi:softmax', predictor=None, ...)"
+LGBMClassifier,"LGBMClassifier(learning_rate=0.5, max_depth=8, n_estimators=200,
+               objective='MultiClass', reg_alpha=0.1, silent=True)"
+Catboost,<catboost.core.CatBoostClassifier object at 0x000002011370E040>
+DNN,<keras.engine.functional.Functional object at 0x0000020127870640>

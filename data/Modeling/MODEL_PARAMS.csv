@@ -3,7 +3,7 @@ LogisticRegression,"LogisticRegression(class_weight='balanced', solver='liblinea
 DecisionTreeClassifier,"DecisionTreeClassifier(class_weight='balanced', criterion='entropy',
                        max_depth=25, splitter='random')"
 SVC,"SVC(C=0.1, class_weight='balanced', degree=4, gamma=1, kernel='poly')"
-KNeighborsClassifier,KNeighborsClassifier()
+KNeighborsClassifier,"{'algorithm': 'auto', 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}"
 RandomForestClassifier,"DecisionTreeClassifier(max_depth=15, max_features='auto', min_samples_split=5,
                        random_state=442435864)"
 XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
@@ -19,5 +19,6 @@ XGBClassifier,"XGBClassifier(base_score=None, booster=None, callbacks=None,
               objective='multi:softmax', predictor=None, ...)"
 LGBMClassifier,"LGBMClassifier(learning_rate=0.5, max_depth=8, n_estimators=200,
                objective='MultiClass', reg_alpha=0.1, silent=True)"
-Catboost,<catboost.core.CatBoostClassifier object at 0x000002011370E040>
-DNN,<keras.engine.functional.Functional object at 0x0000020127870640>
+Catboost,"  {'n_estimators':200,'obejective,:'MultiClass',depth': 4, 'l2_leaf_reg': 1, 'learning_rate': 0.01} 
+"
+DNN,"{'FIRST_NODE':'512',,'ACTIVATION':'relu','OUTPUT_ACTIVATION':'soft_max'HIDDEN_NODE': 128, 'LAYERS': 3, 'L2': 0.1, 'DROPOUT_RATE': 0.5}"

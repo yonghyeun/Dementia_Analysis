@@ -1,0 +1,9 @@
+Model,F1_micro
+SVC,0.676
+LogisticRegression,0.667
+RandomForestClassifier,0.65
+KNeighborsClassifier,0.632
+<catboost.core.CatBoostClassifier object at 0x7fccb09f71f0>,0.623
+DecisionTreeClassifier,0.614
+LGBMClassifier,0.613
+XGBClassifier,0.578

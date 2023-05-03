@@ -5,10 +5,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.decomposition import PCA
+import requests
+
 
 # Load your data
-train = pd.read_csv('https://raw.githubusercontent.com/yonghyeun/Dementia_Analysis/main/data/train.csv').drop('EMAIL',axis = 1)
-test = pd.read_csv('https://raw.githubusercontent.com/yonghyeun/Dementia_Analysis/main/data/test.csv').drop('EMAIL',axis = 1)
+train = pd.read_csv('https://raw.githubusercontent.com/yonghyeun/Dementia_Analysis/main/data/lifelog%20raw%20data/train.csv').drop('EMAIL',axis = 1)
+test = pd.read_csv('https://raw.githubusercontent.com/yonghyeun/Dementia_Analysis/main/data/lifelog%20raw%20data/test.csv').drop('EMAIL',axis = 1)
 
 df = pd.concat([train,test],axis = 0)
 
@@ -142,9 +144,9 @@ def do_pca(df, components):
 #     main()
 
 
-import streamlit as st
-import pandas as pd
-import plotly.express as px
+# import streamlit as st
+# import pandas as pd
+# import plotly.express as px
 
 def main():
 
@@ -153,7 +155,7 @@ def main():
     st.title('PCA Plot')
     
     # 컬럼 레이아웃 생성
-    col1, col2 = st.beta_columns([2, 1,])  # 첫 번째 컬럼은 두 번째 컬럼보다 2배 너비로 설정합니다.
+    col1, col2 = st.columns([2, 1,])  # 첫 번째 컬럼은 두 번째 컬럼보다 2배 너비로 설정합니다.
     
     # 2차원 산점도를 생성하고 첫 번째 컬럼에 표시합니다.
     with col1:
@@ -174,6 +176,27 @@ def main():
                                template='plotly_dark', hover_data=['target'])
         fig_3d.update_traces(marker=dict(size=8))
         st.plotly_chart(fig_3d)
+
+if __name__ == '__main__':
+    main()
+
+import requests
+
+# GitHub의 이미지 URL
+github_image_url = 'https://raw.githubusercontent.com/username/repository/master/image.jpg'
+
+# 이미지 다운로드 함수
+def download_image(url):
+    response = requests.get(url)
+    return response.content
+
+# Streamlit 앱
+def main():
+    st.title('GitHub 이미지 보기')
+    
+    # 이미지 다운로드 및 표시
+    image_content = download_image(github_image_url)
+    st.image(image_content)
 
 if __name__ == '__main__':
     main()

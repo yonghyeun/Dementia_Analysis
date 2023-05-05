@@ -17,34 +17,73 @@ df_valid = df_valid.sort_values(by = 'f1_score', ascending = False)
 
 
 def main():
+    col5 , col6 = st.columns([1,1])
+    with col5 :
+        # Create the bar graph
+        fig = px.bar(df_test, x='f1_score', y='model', orientation='h', color='model',
+                labels={'f1_score': 'F1 Score', 'model': 'Model'})
 
-    # Create the bar graph
-    fig = px.bar(df_test, x='f1_score', y='model', orientation='h', color='model',
-             labels={'f1_score': 'F1 Score', 'model': 'Model'})
+    # Update layout
+        fig.update_layout(title='Test set F1 Scores for Different Models',
+                    xaxis=dict(title='f1_score'),
+                    yaxis=dict(title='Model'))
 
-# Update layout
-    fig.update_layout(title='Test set F1 Scores for Different Models',
-                  xaxis=dict(title='f1_score'),
-                  yaxis=dict(title='Model'))
-
-    st.plotly_chart(fig)
+        st.plotly_chart(fig)
+    with col6:
+        st.write('이것은 Test F1입니다.')
 
 if __name__ == '__main__':
     main()
 
 
 def main():
+    col7, col8 = st.columns([1,1])
+    with col7:
+        # Create the bar graph
+        fig = px.bar(df_valid, x='f1_score', y='model', orientation='h', color='model',
+                labels={'f1_score': 'F1 Score', 'model': 'Model'})
 
-    # Create the bar graph
-    fig = px.bar(df_valid, x='f1_score', y='model', orientation='h', color='model',
-             labels={'f1_score': 'F1 Score', 'model': 'Model'})
+    # Update layout
+        fig.update_layout(title='Validation set F1 Scores for Different Models',
+                    xaxis=dict(title='f1_score'),
+                    yaxis=dict(title='Model'))
 
-# Update layout
-    fig.update_layout(title='Validation set F1 Scores for Different Models',
-                  xaxis=dict(title='f1_score'),
-                  yaxis=dict(title='Model'))
-
-    st.plotly_chart(fig)
-
+        st.plotly_chart(fig)
+    with col8:
+        st.write('이것은 Valid F1입니다.')
+   
 if __name__ == '__main__':
     main()
+# def main():
+#     col5, col6, col7, col8 = st.columns(4)
+    
+#     selected_models = st.multiselect('Select Models', ['LogisticRegression', 'DecisionTreeClassifier', 'SVC', 'KNeighborsClassifier', 'RandomForestClassifier', 'XGBClassifier', 'LGBMClassifier', 'CatBoostClassifier', 'DNN'])
+
+#     if selected_models:
+#         selected_df_test = df_test[df_test['model'].isin(selected_models)]
+#         selected_df_valid = df_valid[df_valid['model'].isin(selected_models)]
+
+#         with col5:
+#             # Create the bar graph for test set
+#             fig_test = px.bar(selected_df_test, x='f1_score', y='model', orientation='h', color='model',
+#                               labels={'f1_score': 'F1 Score', 'model': 'Model'})
+#             # Update layout
+#             fig_test.update_layout(title='Test set F1 Scores for Selected Models',
+#                                    xaxis=dict(title='f1_score'),
+#                                    yaxis=dict(title='Model'))
+#             st.plotly_chart(fig_test)
+#             st.write('This is the Test F1.')
+
+#         with col7:
+#             # Create the bar graph for validation set
+#             fig_valid = px.bar(selected_df_valid, x='f1_score', y='model', orientation='h', color='model',
+#                                labels={'f1_score': 'F1 Score', 'model': 'Model'})
+#             # Update layout
+#             fig_valid.update_layout(title='Validation set F1 Scores for Selected Models',
+#                                     xaxis=dict(title='f1_score'),
+#                                     yaxis=dict(title='Model'))
+#             st.plotly_chart(fig_valid)
+#             st.write('This is the Valid F1.')
+
+# if __name__ == '__main__':
+#     main()

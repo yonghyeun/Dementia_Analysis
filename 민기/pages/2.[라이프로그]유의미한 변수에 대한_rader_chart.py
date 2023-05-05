@@ -39,10 +39,9 @@ columns = ['activity_rest', 'activity_score_meet_daily_targets', 'activity_score
 def main():
 
 
-    # Streamlit 애플리케이션의 제목을 설정합니다.
-    st.title('PCA Plot')
+   
 
-    col1, col2 = st.columns([1, 1])  # 첫 번째 컬럼은 두 번째 컬럼보다 2배 너비로 설정합니다.
+    col1, col2 = st.columns([1,1])  # 첫 번째 컬럼은 두 번째 컬럼보다 2배 너비로 설정합니다.
 
     with col1:
 

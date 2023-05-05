@@ -53,10 +53,10 @@ valid_roc['fpr'] = valid_roc['fpr'].map(mk)
 valid_roc['tpr'] = valid_roc['tpr'].map(mk)
 
 
-st.dataframe(test_roc)
-st.dataframe(valid_roc)
+# st.dataframe(test_roc)
+# st.dataframe(valid_roc)
 
-import ast
+# import ast
 
 
 # # 대시보드에 모델별로 ROC 커브 그리기
@@ -97,7 +97,7 @@ import ast
 # st.plotly_chart(fig)
 
 # 대시보드에 모든 모델의 ROC 커브 그리기
-fig = px.line(title='ROC Curve - All Models')
+fig = px.line(title='ROC Curve - All Models(Test)')
 fig.update_layout(
     xaxis_title='False Positive Rate',
     yaxis_title='True Positive Rate'
@@ -115,6 +115,37 @@ fig.add_shape(
 )
 
 for _, row in test_roc.iterrows():
+    model = row['model']
+    fpr = row['fpr']
+    tpr = row['tpr']
+    roc_auc = row['auc']
+
+    # ROC 커브 추가
+    fig.add_scatter(x=fpr, y=tpr, name=f'{model} (AUC={roc_auc:.2f})')
+
+# 대시보드에 그래프 표시
+st.plotly_chart(fig)
+
+
+# 대시보드에 모든 모델의 ROC 커브 그리기
+fig = px.line(title='ROC Curve - All Models(Validation)')
+fig.update_layout(
+    xaxis_title='False Positive Rate',
+    yaxis_title='True Positive Rate'
+)
+
+# 진단선 추가
+fig.add_shape(
+    type='line',
+    x0=0,
+    y0=0,
+    x1=1,
+    y1=1,
+    line=dict(color='gray', dash='dash'),
+    name='Diagonal Line'
+)
+
+for _, row in valid_roc.iterrows():
     model = row['model']
     fpr = row['fpr']
     tpr = row['tpr']

@@ -1,8 +1,3 @@
-# ngrok
-from pyngrok import ngrok
-
-ngrok.set_auth_token('2PQC07liqB9JkH8dFm2WzmnUXsE_2qmCoFAMy9mWehtihz7Rd')
-
 # 경로 처리
 import streamlit as st
 import os

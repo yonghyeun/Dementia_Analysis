@@ -10,7 +10,7 @@
 
 
 ### **고령화 시대의 의료 불균형 해소를 위한 치매 진단 파이프라인 구축**
-                                               -*Kim Oh Choi-*
+
 
  퇴행성 질환인 치매 관련 AI 기술의 필요성을 탐색하고 비정형, 정형 데이터를 통해 치매의 위험 인자를 탐색, 예측, 판단 할 수 있는 모델을 개발한다.
 
@@ -25,8 +25,9 @@
 
 - **고령화** : 고령화에 따른 치매 유병률은 기하급수적으로 늘어나는데, 의료 불균형은 가속화 되고 있다. 의료인력 부족 문제가 지방에서는 이미 발생하고 있으며, 이런 추세라면 의료 공백 문제가 더욱 심화될 것이다.
 - **의료산업** : 의료 인력을 도울 수 있고 효율성을 향상시키는 'AI(인공지능)'를 활용한 의료기술 산업은 성장성이 높고 낮음을 떠나서 '반드시 성장해야 하는 분야'라고 생각한다. 실제로 [구글](https://www.aitimes.com/news/articleView.html?idxno=149965)이나 [애플, 아마존](https://www.chosun.com/economy/science/2023/02/16/3BEKAY3DY5DUZM3BNF7INVAGWI/)과 같은 글로벌 선도기업들도 관련 분야에 엄청난 투자를 쏟고 있다.
-    
-    ![**출처** : 보건복지부지정 노인성치매 일산연구센터](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9bdf01aa-bada-45cc-ad88-065fb73cd3d3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-28_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.36.52.png)
+    <img width="707" alt="치매 환자 유병률 및 빈도수" src="https://github.com/yonghyeun/Dementia_Analysis/assets/123540354/4e03aef4-8c9a-4989-b37b-ccbe561b120a">
+
+
     
     **출처** : 보건복지부지정 노인성치매 일산연구센터
     
@@ -44,7 +45,8 @@
 
 - **조기진단 및 예측** : 알츠하이머와 같은 질병은 사실 MRI 상으로 판별하기 쉽다. 하지만 치료법이 없는 이런 질병은 발병 후 발견하면 큰 의미가 없다. 조기에 예측하는 것이 무엇보다 중요하다.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b30b98be-14dd-42f1-bacc-7dcc4a9f3983/Untitled.png)
+<img width="782" alt="치매 조기진단의 중요성" src="https://github.com/yonghyeun/Dementia_Analysis/assets/123540354/ae4d6365-aac5-4a04-941b-9e635db0b97e">
+
     
     ["AI 활용한 치매치료 기술, 고령화 시대에 가장 필요한 솔루션"](https://www.pharmnews.com/news/articleView.html?idxno=220533)
     

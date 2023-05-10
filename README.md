@@ -50,15 +50,12 @@
 
 **출처** : 보건복지부지정 노인성치매 일산연구센터
     
-    [구글, 의료전문 LLM '메드-PaLM' 공개...헬스케어 AI 소개](https://www.aitimes.com/news/articleView.html?idxno=149965)
+   - [구글, 의료전문 LLM '메드-PaLM' 공개...헬스케어 AI 소개](https://www.aitimes.com/news/articleView.html?idxno=149965)
+   - [애플, 건강 모니터링 서비스… 아마존, 5조 들여 원격의료 기업 인수](https://www.chosun.com/economy/science/2023/02/16/3BEKAY3DY5DUZM3BNF7INVAGWI/)
     
-    **구글**에서 의료 전문 LLM(대규모 언어 모델)을 공개
+ 
     
-    [애플, 건강 모니터링 서비스… 아마존, 5조 들여 원격의료 기업 인수](https://www.chosun.com/economy/science/2023/02/16/3BEKAY3DY5DUZM3BNF7INVAGWI/)
-    
-    **애플**: 아이폰을 통한 개인 건강 기록과 애플워치를 통해 수집한 데이터를 바탕으로 건강 모니터링 서비스를 제공
-    **아마존**: 원격의료 기업 원메디컬 인수 
-    
+
 
 ### 🏥  **의료분야에서의 AI모델 활용?**
 

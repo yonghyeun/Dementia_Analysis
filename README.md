@@ -90,9 +90,9 @@
 
 | 이름 | 역할 | Github |
 | --- | --- | --- |
-| 김민기 | 라이프로그 데이터 및 이미지 데이터 분석 결과를 활용한 대시보드 제작 |@BDDKID  |
-| 최용현 | 라이프로그 데이터 분석 및 머신러닝 및 딥러닝을 활용한 예측 모델 개발 |  |
-| 김지민 | 두개골 없앤 MRI를 학습한 모델에 OASIS2데이터 적용  |@kjmn1105  |
-| 김희묵 | CANNY로 MR외곽선을 학습한 모델에 OASIS2데이터 적용  |@2mook2  |
-| 오정현 | 데이터 증강을 통해 일반화한 학습한 모델에 OASIS2데이터 적용  |@Ojung-ii  |
-| 최유현 | OASIS-2 demographics 데이터로 치매 예측에 유의미한 변수 탐색  |  |
+| 김민기 | 라이프로그 데이터 및 이미지 데이터 분석 결과를 활용한 대시보드 제작 |[@BDDKID](https://github.com/BDDKID)|
+| 최용현 | 라이프로그 데이터 분석 및 머신러닝 및 딥러닝을 활용한 예측 모델 개발 |[@yonghyeun](https://github.com/yonghyeun)|
+| 김지민 | 두개골 없앤 MRI를 학습한 모델에 OASIS2데이터 적용  |[@kjmn1105](https://github.com/kjmn1105)  |
+| 김희묵 | CANNY로 MR외곽선을 학습한 모델에 OASIS2데이터 적용  |[@2mook2](https://github.com/2mook2)|
+| 오정현 | 데이터 증강을 통해 일반화한 학습한 모델에 OASIS2데이터 적용  |[@Ojung-ii](https://github.com/Ojung-ii)|
+| 최유현 | OASIS-2 demographics 데이터로 치매 예측에 유의미한 변수 탐색  |[@yu-hyun2](https://github.com/yu-hyun2)

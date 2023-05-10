@@ -22,13 +22,12 @@
 ---
 
 ### 👵🏼  치매 유병률 증가와 가속화되는 **의료 불균형**
-    <img width="707" alt="치매 환자 유병률 및 빈도수" src="https://github.com/yonghyeun/Dementia_Analysis/assets/123540354/4e03aef4-8c9a-4989-b37b-ccbe561b120a">
 - **고령화** : 고령화에 따른 치매 유병률은 기하급수적으로 늘어나는데, 의료 불균형은 가속화 되고 있다. 의료인력 부족 문제가 지방에서는 이미 발생하고 있으며, 이런 추세라면 의료 공백 문제가 더욱 심화될 것이다.
 - **의료산업** : 의료 인력을 도울 수 있고 효율성을 향상시키는 'AI(인공지능)'를 활용한 의료기술 산업은 성장성이 높고 낮음을 떠나서 '반드시 성장해야 하는 분야'라고 생각한다. 실제로 [구글](https://www.aitimes.com/news/articleView.html?idxno=149965)이나 [애플, 아마존](https://www.chosun.com/economy/science/2023/02/16/3BEKAY3DY5DUZM3BNF7INVAGWI/)과 같은 글로벌 선도기업들도 관련 분야에 엄청난 투자를 쏟고 있다.
 
 
 
-    
+<img width="707" alt="치매 환자 유병률 및 빈도수" src="https://github.com/yonghyeun/Dementia_Analysis/assets/123540354/4e03aef4-8c9a-4989-b37b-ccbe561b120a">
     **출처** : 보건복지부지정 노인성치매 일산연구센터
     
     [구글, 의료전문 LLM '메드-PaLM' 공개...헬스케어 AI 소개](https://www.aitimes.com/news/articleView.html?idxno=149965)

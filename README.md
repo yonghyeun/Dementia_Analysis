@@ -27,7 +27,7 @@
 
 ---
 ![노인 아들 치매 사진](https://github.com/yonghyeun/Dementia_Analysis/assets/123540354/7a6244d2-e169-4f2b-9a07-098a7f23bfde)
-
+[이미지 출처](https://www.kaggle.com/datasets/yasserhessein/dataset-alzheimer)
 
 
 ### **고령화 시대의 의료 불균형 해소를 위한 치매 진단 파이프라인 구축**
